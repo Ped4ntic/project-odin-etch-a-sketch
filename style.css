@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    width: 960px;
+    height: 960px;
+    border: 1px solid #000;
+}
+
+.grid-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: 960px;
+    background-color: #202020;
+    border-radius: 4px;
+}
