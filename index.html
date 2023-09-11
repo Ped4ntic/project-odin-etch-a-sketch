@@ -3,13 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Etch</title>
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="grid-wrapper">
-        <div class="grid-container"></div>
+    <div class="container">
+        <div class="title">
+            <h1>Odin Etch</h1>
+        </div>
+
+        <div class="settings">
+            <input title="colorPicker" id="colorPicker" type="color" value="#b9bfc0" />
+            <button id="colorBtn">Color mode</button>
+            <button id="rainbowBtn">Rainbow mode</button>
+            <button id="eraserBtn">Eraser</button>
+            <button id="clearBtn">Clear</button>
+            <input title="gridSizeSlider" type="range" id="gridSizeSlider" min="1" max="64" step="1" value="16">
+            <span id="sliderValue">16 x 16</span>
+        </div>
+        
+        <div class="grid-wrapper">
+            <div class="grid-container"></div>
+        </div>
     </div>
+        <footer class="footer">
+            <p>
+                Copyright ©
+                <script>
+                    document.write(new Date().getFullYear())
+                    </script>
+          Ped4ntic
+        </p>
+        <a href="https://github.com/Ped4ntic" target="_blank">
+            <i class="fab fa-github"></i
+                ></a>
+      </footer>
+
     <script src="app.js"></script>
 </body>
 </html>
